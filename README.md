@@ -115,7 +115,7 @@ Cross dataset evaluation of inpainting (training on Places365 dataset and testin
 
 - Cross dataset evaluation (Training on CelebA / Testing on Places365)
 
-<img src="https://i.imgur.com/fPvofNz.png" width="1312" height="300">
+<img src="https://i.imgur.com/fPvofNz.png" width="1312" height="250">
 
 Cross dataset evaluation of inpainting (training on CelebA dataset and testing on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better)
 
