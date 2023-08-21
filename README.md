@@ -107,6 +107,17 @@ range; M means 21% to 40% mask range; L means 41% to 60% mask range)
 Quantitative evaluation of inpainting on Paris Street View dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM), Learned Perceptual Image Patch Similarity (LPIPS) and Frechet Inception ´ Distance (FID) metrics. (Bold means the 1st best; † means higher is better; ¶ means lower is better; S means 5% to
 20% mask range; M means 21% to 40% mask range; L means 41% to 60% mask range)
 
+- Cross dataset evaluation (Training on Places365 / Testing on CelebA)
+
+<img src="https://i.imgur.com/mKMiMyX.png" width="1312" height="350">
+
+Cross dataset evaluation of inpainting (training on Places365 dataset and testing on CelebA dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better)
+
+- Cross dataset evaluation (Training on CelebA / Testing on Places365)
+
+<img src="hhttps://i.imgur.com/gnPPRN8.png" width="1312" height="350">
+
+Cross dataset evaluation of inpainting (training on CelebA dataset and testing on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better)
 
 All training and testing base on same 3090.
 
@@ -114,15 +125,28 @@ All training and testing base on same 3090.
 
 - Places365
 
-<img src="https://i.imgur.com/FMGm4mB.jpg" width="1000" style="zoom:100%;">
+<img src="https://i.imgur.com/1MAfYLF.jpg" width="1000" style="zoom:100%;">
 
-Qualitative results of Places365 dataset among all compared models. From left to right: Masked image, DeepFill_v2, HiFill, Iconv, AOT-GAN, HiFill, CRFill, TFill, and Ours. Zoom-in for details.
+The generated image comparison of our method and all SOTA methods on Places365 dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, HiFill, Iconv, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, ESWT-Net.
 
 - CelebA
 
-<img src="https://i.imgur.com/hPPQQ3W.jpg" width="1000" style="zoom:100%;">
+<img src="https://i.imgur.com/nc19VK8.png" width="1000" style="zoom:100%;">
 
-Qualitative results of CelebA dataset among all compared models. From left to right: Masked image, RW, DeepFill_v2, Iconv, AOT-GAN, CRFill, TFill, and Ours. Zoom-in for details.
+The generated image comparison of our method and all SOTA methods on CelebA dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, Iconv, RF, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, ESWT-Net.
+
+- FFHQ
+
+<img src="https://i.imgur.com/1TYkF3D.png" width="1312" height="350">
+
+The generated image comparison of our method and all SOTA methods on FFHQ dataset. From left to right are ground truth image, input image, CA, TFill, SWMHT-Net, ESWT-Net.
+
+
+- Paris Street View
+
+<img src="https://i.imgur.com/2soManj.png" width="1312" height="350">
+
+The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, ESWT-Net.
 
 ## Ablation study
 
