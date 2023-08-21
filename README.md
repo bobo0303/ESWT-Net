@@ -95,14 +95,14 @@ the 1st best; Underline means the 2nd best; † means higher is better; ¶ means
 
 - FFHQ 
 
-<img src="https://i.imgur.com/C1DTqt2.png" width="1312" height="250">
+<img src="https://i.imgur.com/C1DTqt2.png" width="1312" height="200">
 
  Quantitative evaluation of inpainting on FFHQ dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM), Learned Perceptual Image Patch Similarity (LPIPS) and Frechet Inception Distance ´ (FID) metrics. (Bold means the 1st best; † means higher is better; ¶ means lower is better; S means 5% to 20% mask
 range; M means 21% to 40% mask range; L means 41% to 60% mask range)
 
 - Paris Street View 
 
-<img src="https://i.imgur.com/MHf8WQX.png" width="1312" height="250">
+<img src="https://i.imgur.com/MHf8WQX.png" width="1312" height="200">
 
 Quantitative evaluation of inpainting on Paris Street View dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM), Learned Perceptual Image Patch Similarity (LPIPS) and Frechet Inception ´ Distance (FID) metrics. (Bold means the 1st best; † means higher is better; ¶ means lower is better; S means 5% to
 20% mask range; M means 21% to 40% mask range; L means 41% to 60% mask range)
