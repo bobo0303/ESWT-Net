@@ -143,7 +143,6 @@ The generated image comparison of our method and all SOTA methods on CelebA data
 
 The generated image comparison of our method and all SOTA methods on FFHQ dataset. From left to right are ground truth image, input image, CA, TFill, SWMHT-Net, ESWT-Net.
 
-
 - Paris Street View
 
 <div align=center>
@@ -152,22 +151,40 @@ The generated image comparison of our method and all SOTA methods on FFHQ datase
 
 The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, ESWT-Net.
 
+- Cross dataset evaluation (Training on Places365 / Testing on CelebA)
+
+<img src="https://i.imgur.com/oq5eGxR.png" width="1000" style="zoom:100%;">
+
+Cross-dataset image generation comparison of our method with all SOTA methods on the CelebA dataset. From left to right are ground truth image, input image, DeepFill-V2, RW, Iconv, HiFill, MADF, AOT-GAN, Lama, ESWT-Net.
+
+- Cross dataset evaluation (Training on CelebA / Testing on Places365)
+
+<img src="https://i.imgur.com/x3s0v2j.png" width="1000" style="zoom:100%;">
+
+Cross-dataset image generation comparison of our method with all SOTA methods on the CelebA dataset. From left to right are ground truth image, input image, DeepFill-V2, RW, Iconv, MADF, AOT-GAN, Lama, ESWTNet.
+
 ## Ablation study
 
-- Transformer and HSV loss
+- Ablation study table
 
 <div align=center>
-<img src="https://i.imgur.com/DoYLVKD.png" width="410" height="150"><img src="https://imgur.com/Utxgfzs.jpg" width="410" height="150">
+<img src="https://i.imgur.com/IjlLw3j.png" width="650" height="250">
 </div>
 
-(left) : Ablation study label of transformer and HSV experiment.
+Ablation study of all modual we used with size 256×256 images on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better; V means included module; V∗ means included module and get results from this stage.)
 
-(right) : Ablation study of color deviation on inpainted images. From left to right: Masked images, w/o TotalHSV loss, and TotalHSV loss (w/o V).
+- Ablation study Qualitative comparisons
+
+<div align=center>
+<img src="https://imgur.com/Utxgfzs.jpg" width="410" height="150">
+</div>
+
+The results of each ablation experiment are shown. There are respective removed modules at the bottom of each image. Among them, ESWT (coarse) represents the original model design but the coarse result of the first stage and ESWT (refine) represents the output refinement result of the second stage of the original model.
 
 ## Object removal
 
 <div align=center>
-<img src="https://i.imgur.com/IYIMow7.jpg" width="1300" height="350">
+<img src="https://i.imgur.com/tKALlyh.png" width="650" height="250">
 </div>
 
 Object removal (size 256×256) results. From left to right: Original image, mask, object removal result.
