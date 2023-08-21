@@ -19,6 +19,7 @@ or see the requirements.txt
 [Places365](http://Places365.csail.mit.edu/)  
 [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)  
 [FFHQ](https://drive.google.com/drive/folders/1u2xu7bSrWxrbUxk-dT-UvEJq8IjdmNTP)
+
 [Paris Street View] (Non-publicise, please ask the paper author)
 
 ## Set dataset path
