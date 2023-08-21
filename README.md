@@ -176,7 +176,7 @@ Ablation study of all modual we used with size 256×256 images on Places365 data
 - Ablation study Qualitative comparisons
 
 <div align=center>
-<img src="https://imgur.com/Utxgfzs.jpg" width="410" height="150">
+<img src="https://i.imgur.com/UFeJK0D.png" width="650" height="200">
 </div>
 
 The results of each ablation experiment are shown. There are respective removed modules at the bottom of each image. Among them, ESWT (coarse) represents the original model design but the coarse result of the first stage and ESWT (refine) represents the output refinement result of the second stage of the original model.
