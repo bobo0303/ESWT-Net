@@ -1,0 +1,71 @@
+#GPU ID
+gpu: 0
+world_size: 1
+# The name of this exp
+name: 'ESWT-Net'
+ckpt_path: 'C:/ESWT-Net/ckpt/'
+
+# The config file of each experiment
+config_path: './config_list/'
+
+# start from where, the default is latest
+resume_ckpt: None #'C:/ESWT-Net/ckpt/xxx/model_last.pth'
+resume_D_ckpt: None #'C:/ESWT-Net/ckpt/xxx/Discriminator_last.pth'
+test_ckpt: None #'C:/ESWT-Net/ckpt/xxx/model_best.pth'
+
+# data_path & mask_path should be .txt
+data_path: './txt/Places2/Places2_train.txt'
+mask_path: './txt/mask_80000_random.txt'
+
+# Train
+batch_size: 8  # If changed > HSV loss need change too
+train_epoch: 300
+weight_decay : 0.1
+learning_rate: 0.001
+lr_decay : True
+lr_min: 1e-6
+warmup_epoch : 5
+D_learning_rate: 0.001
+D_lr_decay : True
+D_lr_min: 1e-6
+D_warmup_epoch : 5
+grad_norm_clip: 1.0
+# Loss
+Lambda_LD1  : 10  #real
+Lambda_LD2  : 10  #fake
+Lambda_L1: 10
+Lambda_Perceptual: 0.1
+Lambda_LG  : 10
+Lambda_Style: 250
+Lambda_HSV: 5
+
+# checkpoint settings
+num_workers : 0  # for DataLoader
+# Define the size of transformer
+n_layer: 2
+n_embd: [256, 256, 256, 256]
+n_head: 8   #8>4
+embd_pdrop: 0.0
+resid_pdrop: 0.0
+attn_pdrop: 0.0
+block_size: 32
+# Define the Gated Conv
+activation: 'lrelu'
+norm: 'bn'
+# cswin transformer
+drop_prob: 0.5
+num_layers: 4
+split_size: [4, 8, 16, 32] # [4, 8, 16, 32]
+head: [4, 4, 8, 16]  # [2, 4, 8, 16]
+dim: 256
+loop_time: [4, 2, 2, 1] # 1 2 21 1  [8, 4, 2, 1]
+
+# where is the validation set of ImageNet
+val_path: './txt/Places2/Places2_val_300.txt'
+val_mask_path: './txt/mask_600_random.txt'
+test_path: './txt/Places2/Places2_val.txt'
+test_mask_1~60_path: './txt/random_1_60_mask_3747.txt' #1+10~50+60 #random_1_60_mask_3747.txt
+save_img_path: 'G:/journal/out/Places2_AS_remove_Gatedconvolution2random_1_60_mask_3747/'
+#save_img_first_path: 'G:/journal/out/place2_20000_300epochs_Skip_connect_before_act_random_1_60_mask_3747_108_onestage/'
+image_size: 256
+
