@@ -168,7 +168,7 @@ Cross-dataset image generation comparison of our method with all SOTA methods on
 - Ablation study table
 
 <div align=center>
-<img src="https://i.imgur.com/IjlLw3j.png" width="350" height="250">
+<img src="https://i.imgur.com/IjlLw3j.png" width="650" height="250">
 </div>
 
 Ablation study of all modual we used with size 256×256 images on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better; V means included module; V∗ means included module and get results from this stage.)
@@ -176,7 +176,7 @@ Ablation study of all modual we used with size 256×256 images on Places365 data
 - Ablation study Qualitative comparisons
 
 <div align=center>
-<img src="https://i.imgur.com/UFeJK0D.png" width="650" height="200">
+<img src="https://i.imgur.com/UFeJK0D.png" width="500" height="200">
 </div>
 
 The results of each ablation experiment are shown. There are respective removed modules at the bottom of each image. Among them, ESWT (coarse) represents the original model design but the coarse result of the first stage and ESWT (refine) represents the output refinement result of the second stage of the original model.
