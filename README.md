@@ -168,7 +168,7 @@ Cross-dataset image generation comparison of our method with all SOTA methods on
 - Ablation study table
 
 <div align=center>
-<img src="https://i.imgur.com/IjlLw3j.png" width="500" height="250">
+<img src="https://i.imgur.com/IjlLw3j.png" width="350" height="250">
 </div>
 
 Ablation study of all modual we used with size 256×256 images on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better; V means included module; V∗ means included module and get results from this stage.)
