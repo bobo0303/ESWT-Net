@@ -18,9 +18,8 @@ or see the requirements.txt
 ## Download dataset (Places365、CelebA、FFHQ、Paris Street View)
 [Places365](http://Places365.csail.mit.edu/)  
 [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)  
-[FFHQ](https://drive.google.com/drive/folders/1u2xu7bSrWxrbUxk-dT-UvEJq8IjdmNTP)
-[FFHQ](https://drive.google.com/drive/folders/1u2xu7bSrWxrbUxk-dT-UvEJq8IjdmNTP)
 [Paris Street View](https://github.com/pathak22/context-encoder/issues/24) (Non-publicise, please ask the paper author)
+[FFHQ](https://drive.google.com/drive/folders/1u2xu7bSrWxrbUxk-dT-UvEJq8IjdmNTP)
 
 
 ## Set dataset path
