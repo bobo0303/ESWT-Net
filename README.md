@@ -21,6 +21,7 @@ or see the requirements.txt
 [FFHQ](https://drive.google.com/drive/folders/1u2xu7bSrWxrbUxk-dT-UvEJq8IjdmNTP)
 [Paris Street View](https://github.com/pathak22/context-encoder/issues/24) (Non-publicise, please ask the paper author)
 
+
 ## Set dataset path
 
 Edit txt/xxx.txt (set path in config)
