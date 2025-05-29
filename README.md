@@ -141,7 +141,7 @@ The generated image comparison of our method and all SOTA methods on FFHQ datase
 
 - Paris Street View
 
-<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.pnghttps://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.png" width="1000" style="zoom:100%;">
+<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.png" width="1000" style="zoom:100%;">
 
 The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, ESWT-Net.
 
