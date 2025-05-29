@@ -80,7 +80,7 @@ python test.py (main setting test_ckpt/test_path/test_mask_1_60_path/save_img_pa
 
 - Places365 
 
-<img src="https://i.imgur.com/rU4n2cG.png" width="1312" height="350">
+<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Places365.png" width="1312" height="350">
 
 Quantitative evaluation of inpainting on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM), Learned Perceptual Image Patch Similarity (LPIPS) and Frechet Inception ´ Distance (FID) metrics. The ▲ denotes larger, and ▼ denotes lesser of the parameters compared to our proposed model. (Bold means the 1st best; Underline means the 2nd best; † means higher is better; ¶ means lower is better)
 
