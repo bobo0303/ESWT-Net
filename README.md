@@ -135,16 +135,13 @@ The generated image comparison of our method and all SOTA methods on CelebA data
 
 - FFHQ
 
-
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/FFHQ%20-1.png" width="1000" style="zoom:100%;">
 
 The generated image comparison of our method and all SOTA methods on FFHQ dataset. From left to right are ground truth image, input image, CA, TFill, SWMHT-Net, ESWT-Net.
 
 - Paris Street View
 
-<div align=center>
-<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.png" width="650" height="250">
-</div>
+<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.pnghttps://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.png" width="1000" style="zoom:100%;">
 
 The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, ESWT-Net.
 
