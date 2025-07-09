@@ -103,18 +103,6 @@ range; M means 21% to 40% mask range; L means 41% to 60% mask range)
 Quantitative evaluation of inpainting on Paris Street View dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM), Learned Perceptual Image Patch Similarity (LPIPS) and Frechet Inception ´ Distance (FID) metrics. (Bold means the 1st best; † means higher is better; ¶ means lower is better; S means 5% to
 20% mask range; M means 21% to 40% mask range; L means 41% to 60% mask range)
 
-- Cross dataset evaluation (Training on Places365 / Testing on CelebA)
-
-<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Cross%20dataset%20evaluation%20PC.png" width="1312" height="300">
-
-Cross dataset evaluation of inpainting (training on Places365 dataset and testing on CelebA dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better)
-
-- Cross dataset evaluation (Training on CelebA / Testing on Places365)
-
-<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Cross%20dataset%20evaluation%20CP.png" width="1312" height="250">
-
-Cross dataset evaluation of inpainting (training on CelebA dataset and testing on Places365 dataset. We report Peak signal-to-noise ratio (PSNR), structural similarity (SSIM). (Bold means the 1st best; Underline means the 2nd best; † means higher is better)
-
 All training and testing base on same 3090.
 
 ## Qualitative comparisons
@@ -123,37 +111,26 @@ All training and testing base on same 3090.
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Places365%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on Places365 dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, HiFill, Iconv, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, ESWT-Net.
+The generated image comparison of our method and all SOTA methods on Places365 dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, HiFill, Iconv, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, TS-ESWT-Net.
 
 - CelebA
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/CelebA%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on CelebA dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, Iconv, RF, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, ESWT-Net.
+The generated image comparison of our method and all SOTA methods on CelebA dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, Iconv, RF, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, TS-ESWT-Net.
 
 - FFHQ
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/FFHQ%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on FFHQ dataset. From left to right are ground truth image, input image, CA, TFill, SWMHT-Net, ESWT-Net.
+The generated image comparison of our method and all SOTA methods on FFHQ dataset. From left to right are ground truth image, input image, CA, TFill, SWMHT-Net, TS-ESWT-Net.
 
 - Paris Street View
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, ESWT-Net.
+The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, TS-ESWT-Net.
 
-- Cross dataset evaluation (Training on Places365 / Testing on CelebA)
-
-<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Cross%20dataset%20evaluation%20PC%20-1.png" width="1000" style="zoom:100%;">
-
-Cross-dataset image generation comparison of our method with all SOTA methods on the CelebA dataset. From left to right are ground truth image, input image, DeepFill-V2, RW, Iconv, HiFill, MADF, AOT-GAN, Lama, ESWT-Net.
-
-- Cross dataset evaluation (Training on CelebA / Testing on Places365)
-
-<img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Cross%20dataset%20evaluation%20CP%20-1.png" width="1000" style="zoom:100%;">
-
-Cross-dataset image generation comparison of our method with all SOTA methods on the CelebA dataset. From left to right are ground truth image, input image, DeepFill-V2, RW, Iconv, MADF, AOT-GAN, Lama, ESWTNet.
 
 ## Ablation study
 
@@ -171,7 +148,7 @@ Ablation study of all modual we used with size 256×256 images on Places365 data
 <img src="https://i.imgur.com/UFeJK0D.png" width="550" height="300">
 </div>
 
-The results of each ablation experiment are shown. There are respective removed modules at the bottom of each image. Among them, ESWT (coarse) represents the original model design but the coarse result of the first stage and ESWT (refine) represents the output refinement result of the second stage of the original model.
+The results of each ablation experiment are shown. There are respective removed modules at the bottom of each image. Among them, TS-ESWT (coarse) represents the original model design but the coarse result of the first stage and TS-ESWT (refine) represents the output refinement result of the second stage of the original model.
 
 ## Object removal
 
