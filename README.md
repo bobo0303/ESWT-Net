@@ -111,26 +111,25 @@ All training and testing base on same 3090.
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Places365%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on Places365 dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, HiFill, Iconv, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, TS-ESWT-Net.
+Qualitative comparison of inpainting results on the Places365 dataset. From left to right: ground truth image, input image, and outputs from CA, DeepFill-V2, HiFill, Iconv, CRFill, RW, AOT-GAN, TFill, SWMHT-Net, MSCSWT-Net, FcF, SketchRefiner, and TS-ESWT-Net (Ours).
 
 - CelebA
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/CelebA%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on CelebA dataset. From left to right are ground truth image, input image, CA, RW, DeepFill-V2, Iconv, RF, CRFill, AOT-GAN, TFill, SWMHT-Net, FcF, TS-ESWT-Net.
+Qualitative comparison of inpainting results on the CelebA dataset. From left to right: ground truth image, input image, and outputs from CA, DeepFill-V2, Iconv, RFR, CRFill, RW, AOT-GAN, TFill, SWMHT-Net, MSCSWT-Net, FcF, M2S, SketchRefiner, and TS-ESWT-Net (Ours).
 
 - FFHQ
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/FFHQ%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on FFHQ dataset. From left to right are ground truth image, input image, CA, TFill, SWMHT-Net, TS-ESWT-Net.
+Qualitative comparison of inpainting results on the FFHQ dataset. From left to right: ground truth image, input image, and outputs from CA, TFill, SWMHT-Net, MSCSWT-Net, FcF, SketchRefiner, and TS-ESWT-Net (Ours).
 
 - Paris Street View
 
 <img src="https://github.com/bobo0303/ESWT-Net/blob/main/img/Paris%20Street%20View%20-1.png" width="1000" style="zoom:100%;">
 
-The generated image comparison of our method and all SOTA methods on Paris Street View dataset. From left to right are ground truth image, input image, SN, RW, RFR, SWMHT-Net, TS-ESWT-Net.
-
+Qualitative comparison of inpainting results on the Paris Street View dataset. From left to right: ground truth image, input image, and outputs from SN, RW, RFR, SWMHT-Net, MSCSWT-Net, FcF, SketchRefiner, and TS-ESWT-Net (Ours).
 
 ## Ablation study
 
